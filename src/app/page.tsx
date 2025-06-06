@@ -368,25 +368,8 @@ export default function Home() {
                 )}
               </div>
               <div className="flex flex-col justify-center items-center bg-[#f8f6f2] p-0 h-full w-full max-w-[500px] mx-auto h-full min-h-[1100px]">
-                {i === 0 ? (
-                  <div className="flex flex-1 items-center justify-center h-full mb-8">
-                    <CheqHomeScreen />
-                  </div>
-                ) : i === 1 ? (
-                  <div className="flex flex-1 items-center justify-center h-full mb-8">
-                    <FleetMonitorMobileUI />
-                  </div>
-                ) : i === 2 ? (
-                  <div className="flex flex-1 items-center justify-center h-full mb-8">
-                    <HealthcareMobileUI />
-                  </div>
-                ) : i === 3 ? (
-                  <div className="flex flex-1 items-center justify-center h-full mb-8">
-                    <SaasFinanceMobileUI />
-                  </div>
-                ) : (
-                  <img src={cs.img} alt="Mobile UI" className="rounded-3xl shadow-lg max-w-full h-auto md:w-[300px] md:h-[600px] object-cover" />
-                )}
+                {/* DEBUG: Replacing all subcomponents with a placeholder to isolate error */}
+                <div className="flex flex-1 items-center justify-center h-full mb-8">Component Placeholder</div>
               </div>
             </div>
           ))}
