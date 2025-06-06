@@ -19,14 +19,9 @@
       }
     ],
     "paths": {
-<<<<<<< HEAD
-      "@/*": ["./src/*"]
-    }
-=======
       "@/*": ["*"]
     },
     "baseUrl": "./src"
->>>>>>> 95b4a54214a9aac3a6cce848168f13956e1fcbc1
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
